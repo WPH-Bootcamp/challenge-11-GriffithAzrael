@@ -89,7 +89,6 @@ export function MusicPlayer() {
   };
 
   // 3. Equalizer Bars Animations
-  // Menggunakan height array [min, max] untuk animasi bolak-balik
   // Asumsi: h-16 (Tailwind) adalah max height (~32px). 50% adalah ~6px.
   const MAX_HEIGHT = 32; // px
   const MIN_HEIGHT = 16; // px
