@@ -192,7 +192,7 @@ export function MusicPlayer() {
         <div className='flex h-8 w-full overflow-hidden rounded-full bg-neutral-800'>
           <motion.div
             variants={progressBarVariants}
-            className='flex h-full w-full origin-left rounded-l-full'
+            className='flex h-full w-full origin-left'
           ></motion.div>
         </div>
 
