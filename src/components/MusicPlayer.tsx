@@ -89,7 +89,7 @@ export function MusicPlayer() {
   };
 
   // 3. Equalizer Bars Animations
-  // Asumsi: h-16 (Tailwind) adalah max height (~32px). 50% adalah ~6px.
+  // Asumsi: h-32 (Custom Tailwind rules) adalah max height (~32px). 50% adalah ~16px.
   const MAX_HEIGHT = 32; // px
   const MIN_HEIGHT = 16; // px
   const PAUSED_HEIGHT = 6; // px
