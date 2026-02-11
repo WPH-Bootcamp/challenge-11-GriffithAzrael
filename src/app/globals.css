@@ -1,8 +1,5 @@
 @import 'tailwindcss';
 
-/* Plugin animasi untuk Shadcn UI */
-@plugin 'tailwindcss-animate';
-
 @custom-variant dark (&:is(.dark *));
 
 @theme {
