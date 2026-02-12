@@ -15,7 +15,7 @@ const generateNumericSpacing = () => {
     spacing[i] = `${i}px`;
   }
 
-  // Satuan Menengah & Besar (Daftar manual sesuai CSS anda)
+  // Satuan Menengah & Besar
   const largerSizes = [
     24, 25, 28, 30, 32, 36, 40, 44, 48, 50, 56, 60, 64, 72, 80, 96, 100, 128,
     140, 160, 200, 256,
